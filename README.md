@@ -74,7 +74,7 @@ Day 3 wrap-up: Architecture
    6. embedding
    7. nbformat
 
-Software Requirements
+#### Software Requirements
 
 Python 3.x
 IPython stable (version 3.1) installed with the notebook. It should be available through the usual distribution channel, such Anaconda.
@@ -82,11 +82,15 @@ Your favorite text editor.
 If you have trouble installing Anaconda, this blog entry may help.
 To install the packages required for this course and the Pandas course using Anaconda, create a suitable environment using
 
-conda create -n ngcm python=3 numpy scipy ipython ipython-notebook pandas matplotlib pyzmq tornado
+```
+conda create -n ngcm python=3 numpy scipy ipython ipython-notebook pandas matplotlib pyzmq tornado requests
+```
 Then, to use this environment, enter
-
+```
 source activate ngcm
-Checking your installation
+```
+
+#### Checking your installation
 
 You can download and run this ipython-version-check.py script, and execute it using "python ipython-version-check.py" to check you have fulfilled the installation requirements.
 
